@@ -2,6 +2,7 @@ import express from "express";
 import dotenv from "dotenv";
 import sequelize from "./src/config/database.js";
 import bookRoutes from "./src/routes/book.routes.js";
+
 dotenv.config();
 
 const app = express();
